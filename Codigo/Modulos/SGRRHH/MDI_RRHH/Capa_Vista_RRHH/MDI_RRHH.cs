@@ -19,6 +19,7 @@ using Capa_Vista_Reclutamiento;
 using Capa_Vista_Evaluacion;
 using Capa_Vista_GD;
 using Modelo_Vista_AsistenciaYFaltas;
+using Capa_Vista_Parcial2;
 
 namespace Capa_Vista_RRHH
 {
@@ -327,6 +328,12 @@ namespace Capa_Vista_RRHH
         {
             Frm_Reporte_Evaluacion_Desempenio repo = new Frm_Reporte_Evaluacion_Desempenio();
             repo.Show();    
+        }
+
+        private void peliculasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_mantenimiento_peliculas peli = new frm_mantenimiento_peliculas();
+            peli.Show();
         }
     }
 }
