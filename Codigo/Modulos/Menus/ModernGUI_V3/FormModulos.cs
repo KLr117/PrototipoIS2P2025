@@ -205,11 +205,11 @@ namespace Interfac_V3
 
         private void Btn_Nominas_MouseEnter(object sender, EventArgs e)
         {
-            Btn_Nominas.BackColor = Color.FromArgb(130, 165, 248);  // Cambia el color de fondo al pasar el cursor
+            Btn_Nominas.BackColor = Color.FromArgb(128, 191, 255);  // Cambia el color de fondo al pasar el cursor
         }
         private void Btn_Nominas_MouseLeave(object sender, EventArgs e)
         {
-            Btn_Nominas.BackColor = Color.FromArgb(240, 240, 240);  // Restaura el color original al quitar el cursor
+            Btn_Nominas.BackColor = Color.FromArgb(128, 191, 255);  // Restaura el color original al quitar el cursor
         }
 
         private void Btn_Logistica_Click(object sender, EventArgs e)

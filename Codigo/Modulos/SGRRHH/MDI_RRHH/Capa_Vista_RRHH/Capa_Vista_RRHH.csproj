@@ -61,6 +61,9 @@
     <Reference Include="Capa_Vista_Nominas">
       <HintPath>..\..\Nominas2_5\Capa_Vista_Nominas\bin\Debug\Capa_Vista_Nominas.dll</HintPath>
     </Reference>
+    <Reference Include="Capa_Vista_Parcial2">
+      <HintPath>..\..\Parcial2\Capa_Vista_Parcial2\bin\Debug\Capa_Vista_Parcial2.dll</HintPath>
+    </Reference>
     <Reference Include="Capa_Vista_PercepcionesDeducciones">
       <HintPath>..\..\Nominas2_5\PercepcionesDeducciones\Capa_Vista_PercepcionesDeducciones\bin\Debug\Capa_Vista_PercepcionesDeducciones.dll</HintPath>
     </Reference>
